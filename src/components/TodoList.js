@@ -7,9 +7,9 @@ import Todo from './Todo'
 export default function TodoList(props) {
     return (
         <div>
-            {props.todos.map(todo => (
-                <Todo key={todo.id} todo={todo} />
-            ))}
+        {props.todos.map(todo => (
+            <Todo key={todo.id} todo={todo}/>
+        ))}
         </div>
     )
 }
